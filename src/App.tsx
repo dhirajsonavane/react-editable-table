@@ -20,7 +20,7 @@ function App() {
             <Nav.Link href="https://www.linkedin.com/in/dhirajsonavane/" target="_blank">
               <LinkedInIcon />
             </Nav.Link>
-            <Nav.Link href="https://github.com/dhirajsonavane/ts-layout" target="_blank">
+            <Nav.Link href="https://github.com/dhirajsonavane" target="_blank">
               <GithubIcon />
             </Nav.Link>
           </Nav>
