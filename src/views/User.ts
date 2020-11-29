@@ -40,6 +40,15 @@ export const Usercolumns = [
         headerTitle: true,
         headerClasses: 'bootstrap-table-header',
         filter: textFilter(),
+        validator: (newValue, row, column) => {
+            if (isNaN(newValue)) {
+              return {
+                valid: false,
+                message: 'Age should be numeric'
+              };
+            }
+            return true;
+          }
     },
     {
         dataField: 'Gender',
