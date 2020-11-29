@@ -1,0 +1,16 @@
+$body-bg: #fff;
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+.user-list-edit-cell {
+    background: 'green'
+}
+
+.bootstrap-table-header {
+    background-color: #f6a500;
+    vertical-align: top !important;
+}
+
+.spinner-container{
+    text-align: center;
+}
