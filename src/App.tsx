@@ -14,7 +14,7 @@ function App() {
       <div className="App">
         <Navbar bg="dark" sticky="top">
           <Navbar.Brand href="/">
-            <img src="logo.png" width="50" />
+            <img src={process.env.PUBLIC_URL + '/logo.png'} width="50" />
           </Navbar.Brand>
           <Nav className="ml-auto">
             <Nav.Link href="https://www.linkedin.com/in/dhirajsonavane/" target="_blank">
